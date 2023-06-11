@@ -109,7 +109,7 @@
 
 .left-side {
   flex: 1;
-  background: url(../images/china.jpg);
+  background: url(../images/china.webp);
   background-size: cover;
   background-position: left;
   height: 100%;
