@@ -44,9 +44,9 @@
   width: 90px;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 900px) {
   .logo {
-    width: 150px;
+    width: 90px;
   }
 }
 
