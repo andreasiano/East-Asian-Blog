@@ -14,7 +14,7 @@
 }
 
 .custom-item {
-    color: #9b9a9a;
+    color: #faf7f7;
     font-weight: 700;
     margin: 1rem;
 }
@@ -131,7 +131,7 @@ ul, li, a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(39, 41, 16, 0.8);
+    background-color: rgba(39, 41, 16, 0.6);
 }
 
 .custom-paragraph {
@@ -218,7 +218,7 @@ ul, li, a:hover {
 
 .left-side {
   flex: 1;
-  background: url(../images/yiran-ding-rQti4ZKWJQk-unsplash.jpg);
+  background: url(../images/china-girl.webp);
   background-size: cover;
   background-position: center;
   height: 100%;
