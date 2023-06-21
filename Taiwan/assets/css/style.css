@@ -41,12 +41,12 @@
 }
 
 .logo {
-  width: 100px;
+  width: 200px;
 }
 
 @media screen and (max-width: 900px) {
   .logo {
-    width: 100px;
+    width: 200px;
   }
 }
 
