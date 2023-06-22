@@ -42,12 +42,12 @@
 }
 
 .logo {
-  width: 200px;
+  width: 210px;
 }
 
 @media screen and (max-width: 900px) {
   .logo {
-    width: 150px;
+    width: 190px;
   }
 }
 /*ACCORDION*/
