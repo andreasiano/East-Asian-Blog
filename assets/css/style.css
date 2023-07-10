@@ -14,7 +14,7 @@
 }
 
 .custom-item {
-    color: #faf7f7;
+    color: #fffefe;
     font-weight: 700;
     margin: 1rem;
 }
@@ -45,9 +45,9 @@
   width: 130px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .logo {
-    width: 120px;
+    width: 90px;
   }
 }
 /*ACCORDION*/
@@ -98,6 +98,12 @@ ul, li, a:hover {
     justify-content: center;
 }
 
+@media screen and (max-width: 500px) {
+  .banner {
+    height: 80vh;
+}
+}
+
 .bg-image {
     position: absolute;
     width: 100%;
@@ -121,7 +127,7 @@ ul, li, a:hover {
 @media screen and (max-width: 912px) {
     .banner-content {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 }
 
@@ -143,11 +149,11 @@ ul, li, a:hover {
 }
 
 .custom-heading {
-  font-size: calc(30px + (60 - 30) * ((100vw - 320px)/ (1600 - 320)));
+  font-size: calc(30px + (60 - 20) * ((100vw - 320px)/ (1600 - 320)));
 }
 
 .custom-heading-banner {
-  font-size: calc(30px + (50 - 30) * ((100vw - 320px)/ (1600 - 320)));
+  font-size: calc(30px + (50 - 20) * ((100vw - 320px)/ (1600 - 320)));
 }
 
 
