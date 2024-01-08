@@ -11,7 +11,7 @@ export default function Header_China() {
                   <h1 class="custom-heading-countries text-center fw-bold mb-3">
                     China
                   </h1>
-                  <p class="hero text-center text-white custom-paragraph-article fs-5 mb-5">
+                  <p class="hero text-center text-white custom-paragraph-article fs-5.5 mb-5">
                     China, officially known as the People's Republic of China,
                     is a country located in East Asia. It is the most populous
                     country in the world, with a population of over 1.4 billion

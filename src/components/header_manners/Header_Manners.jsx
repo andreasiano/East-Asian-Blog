@@ -68,7 +68,7 @@ export default function Header_Manners() {
                       data-bs-parent="#table-content"
                     >
                       <div class="accordion-body">
-                        <ul class="fs-4">
+                        <ul class="fs-5">
                           <li>
                             <Link class="text-decoration-none" to="#Praying-1">
                               Understanding Shintoism and Shrine Culture

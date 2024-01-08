@@ -32,7 +32,7 @@ export default function Header_Feng() {
       <article class="container mt-5">
         <div class="row justify-content-between">
           <div class="col-md-6">
-            <p class="h5 mt-5 mb-2 custom-paragraph-article">
+            <p class="h4 mt-5 mb-2 custom-paragraph-article">
               Feng shui (風水), sometimes called Chinese geomancy, is an ancient
               Chinese traditional practice which claims to use energy forces to
               harmonize individuals with their surrounding environment. The term
@@ -44,13 +44,13 @@ export default function Header_Feng() {
               topographical dimensions.
             </p>
             <img class="img-fluid mt-3 mb-2 rounded-3" src={img1} alt=""></img>
-            <p class="fs-6 mb-5 img-description">
+            <p class="h-4 mb-5 img-description">
               The Luopan(罗盘)or geomantic compass is a Chinese magnetic
               compass, also known as a feng shui compass. It is used by a feng
               shui practitioner to determine the precise direction of a
               structure, place or item.
             </p>
-            <p class="h5 mb-5 custom-paragraph-article mt-3">
+            <p class="h4 mb-5 custom-paragraph-article mt-3">
               Historically, as well as in many parts of the contemporary Chinese
               world, feng shui was used to orient buildings and spiritually
               significant structures such as tombs, as well as dwellings and
@@ -83,7 +83,7 @@ export default function Header_Feng() {
                   data-bs-parent="#table-content"
                 >
                   <div class="accordion-body">
-                    <ul class="fs-4">
+                    <ul class="fs-5">
                       <li>
                         <Link class="text-decoration-none" to="#feng-1">
                           Understanding Feng Shui

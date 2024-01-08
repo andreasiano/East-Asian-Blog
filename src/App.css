@@ -150,10 +150,11 @@ ul, li, a:hover {
 }
 
 .custom-paragraph-article {
-  line-height: 2.3rem;
+  line-height: 1.6;
   font-weight: 400;
   font-family: 'Source Sans 3', sans-serif;
   text-align: left;
+  font-size: 1.2rem;
 }
 
 .custom-paragraph {
@@ -186,6 +187,7 @@ ul, li, a:hover {
 
 .custom-heading-aside {
   color: rgb(96, 45, 46);
+  font-size: calc(25px + (35 - 25) * ((100vw - 320px)/ (1600 - 320)));
 }
 
 
@@ -473,13 +475,13 @@ img {
 }
 
 .custom-heading-countries {
-  font-size: calc(60px + (90 - 50) * ((100vw - 320px)/ (1600 - 320)));
+  font-size: calc(40px + (60 - 40) * ((100vw - 320px)/ (1600 - 320)));
   color: rgb(255, 255, 255);
 }
 
 .heading-paragraph-countries {
   color: rgb(96, 45, 46);
-  font-size: calc(40px + (50 - 40) * ((100vw - 320px)/ (1600 - 320)));  
+  font-size: calc(30px + (30 - 30) * ((100vw - 320px)/ (1600 - 320)));  
   text-align: center;
 }
 

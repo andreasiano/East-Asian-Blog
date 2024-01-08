@@ -69,7 +69,7 @@ export default function Header_JingPing() {
                     data-bs-parent="#table-content"
                   >
                     <div class="accordion-body">
-                      <ul class="fs-4">
+                      <ul class="fs-5">
                         <li>
                           <Link class="text-decoration-none" to="#Jing-1">
                             Origins and Authorship

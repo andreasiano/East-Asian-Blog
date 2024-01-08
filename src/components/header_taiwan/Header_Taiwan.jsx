@@ -10,7 +10,7 @@ export default function Header_Taiwan() {
             <div class="content">
               <div class="text align-items-center">
                 <h1 class="custom-heading-countries fw-bold mb-3">Taiwan</h1>
-                <p class="hero text-center text-white custom-paragraph-article fs-5 mb-5">
+                <p class="hero text-center text-white custom-paragraph-article fs-5.5 mb-5">
                   Taiwan is an island nation that captivates visitors with its
                   vibrant culture, breathtaking landscapes, and remarkable
                   economic growth. Despite its relatively small size, Taiwan has
@@ -29,7 +29,7 @@ export default function Header_Taiwan() {
             </h1>
             <div class="row align-items-center row-cols-1 row-cols-lg-2 pb-5">
               <div class="text-container col">
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Taiwan's history is a tapestry woven with indigenous tribes,
                   Dutch and Spanish colonial rule, Chinese migration, and
                   Japanese occupation. In 1945, Taiwan returned to Chinese
@@ -40,7 +40,7 @@ export default function Header_Taiwan() {
                   functioning independently from mainland China as a democratic
                   nation.
                 </p>
-                <p class="fs-5 mb-0 custom-paragraph-article">
+                <p class="fs-5.5 mb-0 custom-paragraph-article">
                   Taiwan boasts a diverse cultural landscape shaped by its
                   indigenous communities, Hoklo (Taiwanese), Hakka, and mainland
                   Chinese immigrants. This melting pot of cultures has given
@@ -73,7 +73,7 @@ export default function Header_Taiwan() {
                 ></img>
               </div>
               <div class="text-container col">
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Renowned as the "Silicon Valley of Asia," Taiwan has become a
                   global hub for technological innovation. Home to some of the
                   world's leading technology companies, the island's expertise
@@ -83,7 +83,7 @@ export default function Header_Taiwan() {
                   made substantial contributions to the global tech industry,
                   cementing Taiwan's reputation as a technological powerhouse.
                 </p>
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Taiwan's remarkable economic growth has positioned it as a key
                   player in global trade. Despite its limited natural resources,
                   the nation has focused on developing a strong export-oriented
@@ -102,7 +102,7 @@ export default function Header_Taiwan() {
             </h1>
             <div class="row align-items-center row-cols-1 row-cols-lg-2">
               <div class="text-container col">
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   The history of Taiwanese cuisine began with the cuisine of
                   aboriginal peoples on the island of Taiwan, which existed in
                   the ancient times without written records. From the Ming
@@ -110,7 +110,7 @@ export default function Header_Taiwan() {
                   southern provinces of China, especially the Hoklo people,
                   brought the rich Chinese culinary culture to Taiwan.
                 </p>
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Taiwanese cuisine (臺灣料理; Táiwān liàolǐ; Tâi-oân liāu-lí,
                   Bopomofo:ㄊㄞˊㄨㄢˉㄌㄧㄠˋㄌㄧˇ, or Chinese: 臺灣菜; pinyin:
                   Táiwāncài; Pe̍h-ōe-jī: Tâi-oân-chhài, Bopomofo:ㄊㄞˊㄨㄢˉㄘㄞˋ)

@@ -10,7 +10,7 @@ export default function Header_Korea() {
             <div class="content">
               <div class="text align-items-center">
                 <h1 class="custom-heading-countries fw-bolder mb-3">Korea</h1>
-                <p class="hero text-center text-white custom-paragraph-article fs-5 mb-5">
+                <p class="hero text-center text-white custom-paragraph-article fs-5.5 mb-5">
                   Nestled in the eastern corner of the Asian continent, Korea is
                   a captivating country that effortlessly weaves together a rich
                   cultural heritage with cutting-edge modernity. From its
@@ -29,7 +29,7 @@ export default function Header_Korea() {
             </h1>
             <div class="row align-items-center row-cols-1 row-cols-lg-2 pb-5">
               <div class="text-container col">
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Korea boasts a remarkable history that spans thousands of
                   years. Visitors can explore ancient palaces, such as
                   Gyeongbokgung and Changdeokgung, which offer a glimpse into
@@ -38,7 +38,7 @@ export default function Header_Korea() {
                   artifacts, allows visitors to step back in time and immerse
                   themselves in Korea's rich cultural heritage.
                 </p>
-                <p class="fs-5 mb-0 custom-paragraph-article">
+                <p class="fs-5.5 mb-0 custom-paragraph-article">
                   Korea's rapid technological advancements have earned it the
                   reputation of being a global leader in innovation. Cities like
                   Seoul and Busan showcase futuristic skyscrapers, high-speed
@@ -69,7 +69,7 @@ export default function Header_Korea() {
                 ></img>
               </div>
               <div class="text-container col">
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Korea's cultural heritage is celebrated through various art
                   forms, festivals, and traditions. Traditional music, known as
                   "gugak," and captivating dance performances, such as the
@@ -78,7 +78,7 @@ export default function Header_Korea() {
                   activities and vibrant street performances, has become a
                   popular event for locals and international visitors alike.
                 </p>
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   From breathtaking mountains to picturesque coastlines, Korea
                   is a country of diverse and awe-inspiring landscapes. The
                   Seoraksan National Park offers stunning hiking trails, while
@@ -97,7 +97,7 @@ export default function Header_Korea() {
             </h1>
             <div class="row align-items-center row-cols-1 row-cols-lg-2">
               <div class="text-container col">
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Koreans are known for their warm hospitality and genuine
                   kindness toward visitors. Whether you're exploring bustling
                   markets, seeking directions, or participating in traditional
@@ -106,7 +106,7 @@ export default function Header_Korea() {
                   opportunity to learn about their customs, traditions, and
                   family values.
                 </p>
-                <p class="fs-5 custom-paragraph-article">
+                <p class="fs-5.5 custom-paragraph-article">
                   Korean cuisine, renowned for its bold flavors and healthy
                   ingredients, has gained global recognition. Food lovers can
                   savor iconic dishes like bibimbap (a rice bowl with assorted

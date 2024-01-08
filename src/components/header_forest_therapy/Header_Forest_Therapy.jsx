@@ -70,7 +70,7 @@ export default function Header_Forest_Therapy() {
                   data-bs-parent="#table-content"
                 >
                   <div class="accordion-body">
-                    <ul class="fs-4">
+                    <ul class="fs-5">
                       <li>
                         <Link class="text-decoration-none" to="#Forest-1">
                           Origins of Shinrin-Yoku

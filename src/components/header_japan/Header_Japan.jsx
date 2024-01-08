@@ -11,7 +11,7 @@ export default function Header_Japan() {
                   <h1 class="custom-heading-countries fw-bold mb-3">
                     Japan
                   </h1>
-                  <p class="hero text-center text-white custom-paragraph-article fs-5 mb-5">
+                  <p class="hero text-center text-white custom-paragraph-article fs-5.5 mb-5">
                     A land of captivating contrasts, is a mesmerizing
                     destination that effortlessly blends ancient traditions with
                     cutting-edge technology. With its rich history, breathtaking
@@ -30,7 +30,7 @@ export default function Header_Japan() {
               </h1>
               <div class="row align-items-center row-cols-1 row-cols-lg-2 pb-5">
                 <div class="text-container col">
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Japan's cultural heritage is deeply rooted in its
                     traditions, and the Japanese people take immense pride in
                     preserving their customs and rituals. From the graceful art
@@ -40,7 +40,7 @@ export default function Header_Japan() {
                     of traditional experiences that provide a glimpse into its
                     profound past.
                   </p>
-                  <p class="fs-5 mb-0 custom-paragraph-article">
+                  <p class="fs-5.5 mb-0 custom-paragraph-article">
                     While Japan cherishes its ancient traditions, it is also at
                     the forefront of technological innovation. Renowned for its
                     cutting-edge advancements, the country has embraced
@@ -74,7 +74,7 @@ export default function Header_Japan() {
                   ></img>
                 </div>
                 <div class="text-container col">
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Beyond the vibrant cities, Japan boasts a diverse and
                     awe-inspiring natural landscape. From the majestic peak of
                     Mount Fuji, a national symbol and a UNESCO World Heritage
@@ -86,7 +86,7 @@ export default function Header_Japan() {
                     springs, and hiking trails that connect visitors with
                     nature.
                   </p>
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Many visitors to Japan limit their sightseeing activities to
                     the country's heavily urbanized areas between Tokyo, Kyoto
                     and Hiroshima. As a result, many return home with a hardened
@@ -104,7 +104,7 @@ export default function Header_Japan() {
               </h1>
               <div class="row align-items-center row-cols-1 row-cols-lg-2">
                 <div class="text-container col">
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Japan is known for many things: the polite attitude of
                     people, diverse landscapes, anime, and also the complex
                     history between my home country. But for three days in
@@ -113,7 +113,7 @@ export default function Header_Japan() {
                     day after my birthday. What’s a better way to celebrate your
                     birthday than by eating lots of delicious food?
                   </p>
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Japanese cuisine encompasses the regional and traditional
                     foods of Japan, which have developed through centuries of
                     political, economic, and social changes. The traditional
@@ -151,7 +151,7 @@ export default function Header_Japan() {
                   ></img>
                 </div>
                 <div class="text-container col">
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Japan's calendar is brimming with vibrant festivals and
                     celebrations that showcase the country's cultural diversity
                     and the indomitable spirit of its people. The dazzling
@@ -162,7 +162,7 @@ export default function Header_Japan() {
                     just a few examples of the vibrant celebrations that
                     captivate both locals and visitors alike.
                   </p>
-                  <p class="fs-5 custom-paragraph-article">
+                  <p class="fs-5.5 custom-paragraph-article">
                     Unlike most people in East Asia, Japanese people generally
                     do not celebrate the Lunar New Year, its observance having
                     been supplanted by the Western New Year's Day on January 1

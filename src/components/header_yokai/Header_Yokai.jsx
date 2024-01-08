@@ -34,7 +34,7 @@ export default function Header_Yokai() {
               <span class="badge fs-6 bg-light rounded-pill text-black">
                 Folklore
               </span>
-              <h1 class="fw-bolder custom-heading mt-4 mb-4">
+              <h1 class="fw-bolder custom-heading-banner mt-4 mb-4">
                 Yōkai: Monsters and Strange phenomena in Japanese Folklore
               </h1>
               <p class="fs-6 mt-5 fw-bold">
@@ -46,15 +46,15 @@ export default function Header_Yokai() {
         <article class="container mt-5">
           <div class="row justify-content-between">
             <div class="col-md-6">
-              <p class="h5 mt-5 mb-3 custom-paragraph-article">
+              <p class="h4 mt-5 mb-3 custom-paragraph-article">
                 In recent times, Japan has been witnessing a strong interest in
                 every kind of strange phenomena, concerning spirits and monsters.
                 We could call it a true “revival” of forgotten beliefs often
                 vigorously outgrown by the modernization of the country in the
                 past. The supernatural had been eradicated by providing rational
                 explanations.
-                <p class="h5 mt-3 mb-5 custom-paragraph-article">
-                  According to Komatsu Kazuhiko—folklorist and cultural
+                <p class="h-4 mt-3 mb-5 custom-paragraph-article">
+                According to Komatsu Kazuhiko—folklorist and cultural
                   anthropologist this kind of thinking was shared by many of the
                   era’s elite, who promoted a European model of cultural
                   enlightenment. From this point of view, even though many may
@@ -84,7 +84,7 @@ export default function Header_Yokai() {
                     data-bs-parent="#table-content"
                   >
                     <div class="accordion-body">
-                      <ul class="fs-4">
+                      <ul class="fs-5">
                         <li>
                           <Link class="text-decoration-none" to="#spiritism">
                             Spiritism and Strange phenomena

@@ -65,7 +65,7 @@ export default function Header_Ricci() {
                   data-bs-parent="#table-content"
                 >
                   <div class="accordion-body">
-                    <ul class="fs-4">
+                    <ul class="fs-5">
                       <li>
                         <Link class="text-decoration-none" to="#ChurchoftheEast">
                           The Church of the East in China

@@ -99,7 +99,7 @@ export default function Header_Japan20s() {
                     data-bs-parent="#table-content"
                   >
                     <div class="accordion-body">
-                      <ul class="fs-4">
+                      <ul class="fs-5">
                         <li>
                           <Link class="text-decoration-none" to="#Japan20s-1">
                             Japan and its transition to a modernized country
