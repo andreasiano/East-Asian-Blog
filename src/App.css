@@ -1,0 +1,494 @@
+.page {
+  overflow: hidden;
+  font-family: 'Playfair Display', serif;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.hideNav {
+  transform: translateY(-100%);
+}
+
+.custom-item {
+  color: rgb(177, 175, 175);
+  transform: scale(1);
+  transition: all 0.9s;
+  font-weight: 900;
+  font-size: 1rem; 
+}
+
+.custom-item:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+@media screen and (min-width: 768px) {
+  .custom-item:hover {
+  transform: scale(1.2);
+}
+}
+
+@media screen and (max-width: 768px) {
+ .custom-item {
+ font-size: 1.5rem;
+ color: white;
+ text-transform: uppercase;
+}
+ .custom-item:hover {
+ color: rgb(247, 171, 141);
+}
+}
+
+@media screen and (min-width: 912px) {
+  .nav-item {
+    margin-right: 100px;
+  }
+}
+
+.custom-nav {
+  background: rgb(96, 45, 46);
+}
+
+.logo {
+  width: 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+/*ACCORDION*/
+
+ul, li, a {
+  color: rgb(96, 45, 46);
+}
+
+ul, li, a:hover {
+  color: rgb(23, 22, 22);
+}
+
+/*OFF CANVAS*/
+
+.offcanvas {
+  background-color: rgb(96, 45, 46);
+}
+
+@media screen and (max-width: 768px) {
+  .offcanvas {
+    max-width: 75%;
+  }
+}
+
+
+/*BANNER*/
+
+.banner {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    height: 80vh;
+}
+}
+
+.bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-content {
+    position: relative;
+    width: 50%;
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 912px) {
+    .banner-content {
+    width: 100%;
+    text-align: left;
+}
+
+}
+.banner-content-article {
+  text-align: left;
+  position: relative;
+  width: 50%;
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 912px) {
+    .banner-content-article {
+        width: 100%;
+    }
+}
+
+.media-overlay, .media-overlay-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.custom-paragraph-article {
+  line-height: 2.3rem;
+  font-weight: 400;
+  font-family: 'Source Sans 3', sans-serif;
+  text-align: left;
+}
+
+.custom-paragraph {
+  font-weight: 400;
+  line-height: 3rem;
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 0 20px;
+}
+
+.custom-heading {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .custom-heading {
+    font-size: 1.5rem;
+  }
+}
+
+.custom-heading-banner {
+  font-size: calc(25px + (40 - 25) * ((100vw - 320px)/ (1600 - 320)));
+  margin-top: 2rem;
+}
+
+.custom-heading-aside {
+  color: rgb(96, 45, 46);
+}
+
+
+/*BUTTONS*/
+
+.btn-custom {
+  position: absolute;
+  bottom: 12rem;
+  left: 2rem;
+  color: white;
+}
+
+.btn-red {
+  background-color: rgb(96, 45, 46);
+  font-size: calc(20px + (20 - 20) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+.btn-red:hover {
+  background-color: rgb(113, 53, 53);
+}
+
+/* CARDS */
+
+.card {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card h5 {
+    font-size: 2rem;
+  }
+}
+
+.card-title > h5 {
+  font-size: calc(25px + (20 - 25) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+@media screen and (max-width: 280px) {
+  .card h5 {
+    font-size: 1.5rem;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card h5 {
+    font-size: 2rem;
+    padding-right: 0;
+  }
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* SPLIT SCREEN */
+
+.divider {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .divider {
+    flex-direction: column;
+    height: 130vh;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .divider {
+    flex-direction: column;
+    height: 150vh;
+  }
+}
+
+.left-side-home {
+  flex: 1;
+  background: url(../src/components/divider/images/hokusai.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.right-side-home {
+  flex: 1;
+  height: 100%;
+  background-color: #ecebeb;
+}
+
+.left-side-countries-3 {
+  flex: 1;
+  background: url(../src/components/header_korea/images/korea.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.left-side-countries-4 {
+  flex: 1;
+  background: url(../src/components/header_taiwan/images/taiwan.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.left-side-countries-2 {
+  flex: 1;
+  background: url(../src/components/header_japan/images/japan.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+
+.left-side-countries-1 {
+  flex: 1;
+  background: url(../src/components/header_china/images/china.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.right-side-countries {
+  flex: 1;
+  height: 100%;
+}
+
+.content {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content .text {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  justify-content: center;
+}
+
+/*IMAGES DESCRIPTION*/
+
+.img-description {
+  font-family: 'Source Sans 3', sans-serif;
+  font-style: italic;
+}
+
+/* BLOCKQUOTE */
+
+blockquote {
+  display: block;
+  position: relative;
+  width: 60%;
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 280px) {
+  blockquote {
+    width: 70%;
+  }
+}
+
+blockquote::before {
+  content: '\201c';
+  top: 10px;
+  left: -40px;
+  color: rgb(96, 45, 46);
+}
+
+blockquote::after {
+  content: '\201d';
+  bottom: -30px;
+  color: rgb(96, 45, 46);
+}
+
+blockquote::before,
+blockquote::after {
+  font-size: 6rem;
+  position: absolute;
+}
+
+blockquote cite {
+  display: block;
+  position: absolute;
+  padding-left: 70px;
+}
+
+/* EXPLORE SECTION */
+
+.gallery {
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.custom-container {
+  width: 70%;
+}
+
+@media screen and (max-width: 912px) {
+  .custom-container {
+    width: 90%;
+  }
+}
+
+.gallery > h1 {
+  color: rgb(96, 45, 46);
+}
+
+@media screen and (max-width: 768px){
+  .gallery{
+    padding: 0 0px 20px;
+  }
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery img {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  text-align: center;
+  font-size: calc(30px + (40 - 30) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+.img-container {
+  position: relative;
+  transform: scale(1.02);
+  transition: 0.9s;
+}
+
+.custom-container {
+  height: auto;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  border-radius: 15px;
+}
+
+.img-container > .img_link {
+  cursor: pointer;
+  color: white;
+}
+
+.img-container:hover {
+  transform: scale(1.05);
+  transition: transform 0.9s ease-in-out;
+  overflow: hidden;
+}
+
+/* COUNTRIES SECTION */
+
+.bg-gray {
+  background-color: #ecebeb;
+}
+
+.hero {
+    width: 80%;
+    line-height: 1.9rem;
+}
+
+.custom-heading-countries {
+  font-size: calc(60px + (90 - 50) * ((100vw - 320px)/ (1600 - 320)));
+  color: rgb(255, 255, 255);
+}
+
+.heading-paragraph-countries {
+  color: rgb(96, 45, 46);
+  font-size: calc(40px + (50 - 40) * ((100vw - 320px)/ (1600 - 320)));  
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .heading-paragraph-countries {
+  text-align: left;
+}
+}
+
+
+
+
